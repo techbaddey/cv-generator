@@ -118,14 +118,14 @@ body {
   padding: 30px 30px 30px 10px;
 }
 
-.cv-avatar {
+.cv-picture {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 49px;
 }
 
-.cv-avatar img {
+.cv-picture img {
   max-width: 117px;
   max-height: 117px;
   min-width: 117px;

@@ -95,8 +95,8 @@
 
         <div class="md-layout md-gutter">
           <div class="md-layout-item md-small-size-100">
-            <md-switch v-model="cvInfo.theme.avatar" class="md-primary"
-              >{{sectionLabelTranslations.theme.avatar}}</md-switch
+            <md-switch v-model="cvInfo.theme.picture" class="md-primary"
+              >{{sectionLabelTranslations.theme.picture}}</md-switch
             >
           </div>
 
@@ -123,7 +123,7 @@
             <div class="md-title">{{sectionTitleTranslations.yourInfo}}</div>
           </md-card-header>
           <md-card-content>
-            <p class="image-upload-label">{{sectionLabelTranslations.yourInfo.avatar}}</p>
+            <p class="image-upload-label">{{sectionLabelTranslations.yourInfo.picture}}</p>
             <div class="image-upload">
               <img
                 style="
@@ -134,18 +134,18 @@
                   border-radius: 50%;
                 "
                 :src="
-                  cvInfo.userInfo.avatar
-                    ? cvInfo.userInfo.avatar
+                  cvInfo.userInfo.picture
+                    ? cvInfo.userInfo.picture
                     : 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASZSURBVHgB1ZprbttGEIBnV6QoWn6QaIGi/VMZSB8p2to8QZUbOCdIewInJ6h8A/cEVU+Q3KD1CaS2P4KiAawESAIjMSjJkiiRNDcztCQoelDirh72ByxErpbizM7s7OyuGCwB13UtyOhHGoND4PxLIeCQCWEBY9agjQCoMSwgor8Zy1SCoHtm23YNFGEgCQmtZXPHIEQRb4sgR5UBO1VRJrUCQ8Gj6PFoD6vCQJSDwD9Jq0gqBa7a3q/LFnwCxko7efNk4eaLNMJeL+i68RT9+BDWAI2VIOg9WMQafF6Dluc90rRsZV3CE/iugqYblWazfTSvbaIC5DLiWpRX6jKzsRhnT2O3TWCmC8UPClGC20DCuJiqAJmOtIdbBMuwn7dN84+J+vEKGrDk8xtymyTqYdBzxgf2hAKtVuecBhFI4nV70PG60O50IQzDuC6b1cHAYu3tgK5poEB1Z3vLGa34SAEVv4+iCNzGFTSarcR2e7vbYKMinM8NgNPfI8TJ3k6+NLgfKhC7jm6cgwQk/JuL9+D7wULtySJffPaprBLkSvvoSnW6Gf5CJqOXQBLq+UWFJ6gtPSOJxbXs48FNbAGV3ic/f/X6AmT4HK1g5gyQYGiF2ALY+0WQRKEn48EuydAKsQIY849Bkp7vgyztjgeycMZ+ij/JfVAF6TzH90OQJQyvQYEipfZcxX02Dcp+xAVTyzI1LQOyUDhVgWTnnPEDUCBv5kAWQ1dTgAEvcJW0gdjaMkEWy9oFFTiDAyxqClAcx6kd0kIpha7gfoSgcApLwMaeTOPP1JbyoSVgsatWR8ASiJO5ehMaV+3EdqrJ3DioQNvFj6Xl/hTbSRGa4PzgZo6gSJU3TRwvOdnUYSasifm/6jjYFLR7wZmAKtxRaLuSRxC9hDtKhPusd9oCGdwkZvFep264IAlFnx4uUPx+6QUB1onheniAhmthGswUfQxdgxwOZlonq0SjMGD78YIGQ+mfkGKHmYTGZ6CN+XwXF/EqkCKUjlCESrfgF7jAzzvxE7hQPsP8ujjvEdpxoAWMqtCj0G9RuXQbsTI0RywSajEPOr35hP6WuZ49nzUfrELwJMjVPrEtyG/NThTJfWzbrMUOSGtLdNvfJhqhH9Nuw1ss6xL+5r3XcPHuEt5duhCEkwsmPBQpk/A3133GrUD7O26jGQ/ITULWsPd2ATe0hnWD3qfrYQgYtQL5I5VNC0+QNcgSJE8MbmwNhCcmthb/e1GrdHvB2s4C0mAYeu3be4X90bqJINwJvIc4R9fhtoEyeYH3YLx6QgHn/v1aBOIJ3DIiHv1Cso3XT50Gne+/LuNctfBB28pBWZzvvnk27avEQ77Kv/+XcKZPPOJZOSj8wQ9flWZ9PfeUsvLPiyPOxe/Ycr0HHujzUcSeOD/eKyc1W+iYtfL8eYFHGcyXWAHWQzXi4cNpPj9OqoPulbsU9TrORU6Cy4yT+q8GZA24zpQw+XsEy6IvOIStU8dxUoVw6T979BUpYl5yzCS3J4WAv7CcyQg+QFqBUQbK4OUhKnTAmCh8NF5oYmSiLoBXhYiXsFUI2s9khR7lAwmyEYQS24fWAAAAAElFTkSuQmCC'
                 "
-                alt="avatar"
+                alt="picture"
               />
-              <label for="avatar-upload">{{
-                cvInfo.userInfo.avatar ? sectionLabelTranslations.yourInfo.change : sectionLabelTranslations.yourInfo.upload
+              <label for="picture-upload">{{
+                cvInfo.userInfo.picture ? sectionLabelTranslations.yourInfo.change : sectionLabelTranslations.yourInfo.upload
               }}</label>
               <input
                 style="display: none"
-                id="avatar-upload"
+                id="picture-upload"
                 type="file"
                 @change="onFileChange($event)"
               />
@@ -254,8 +254,8 @@
 
                       <div class="md-layout-item md-small-size-100">
                         <md-field>
-                          <label for="first-name">{{sectionLabelTranslations.proffesionalExperiance.companyResidance}}</label>
-                          <md-input v-model="item.companyResidance" />
+                          <label for="first-name">{{sectionLabelTranslations.proffesionalExperiance.companyResidence}}</label>
+                          <md-input v-model="item.companyResidence" />
                         </md-field>
                       </div>
                     </div>
@@ -341,8 +341,8 @@
                     <div class="md-layout md-gutter">
                       <div class="md-layout-item md-small-size-100">
                         <md-field>
-                          <label for="first-name">{{sectionLabelTranslations.projects.projectResidance}}</label>
-                          <md-input v-model="item.projectResidance" />
+                          <label for="first-name">{{sectionLabelTranslations.projects.projectResidence}}</label>
+                          <md-input v-model="item.projectResidence" />
                         </md-field>
                       </div>
 
@@ -429,8 +429,8 @@
                       </div>
                     </div>
                     <md-field>
-                      <label for="first-name">{{sectionLabelTranslations.education.schoolResidance}}</label>
-                      <md-input v-model="item.schoolResidance" />
+                      <label for="first-name">{{sectionLabelTranslations.education.schoolResidence}}</label>
+                      <md-input v-model="item.schoolResidence" />
                       <CityIcon fillColor="rgba(0,0,0,0.54)" />
                     </md-field>
                     <div class="md-layout md-gutter">
@@ -738,7 +738,7 @@ export default {
       fileReader.onload = () => {
         base64 = fileReader.result;
         console.log(base64, "hej");
-        this.cvInfo.userInfo.avatar = base64;
+        this.cvInfo.userInfo.picture = base64;
       };
     },
     saveCvInfo() {
@@ -748,7 +748,7 @@ export default {
       var newJob = {
         jobTitle: "",
         companyName: "",
-        companyResidance: "",
+        companyResidence: "",
         yearFrom: null,
         yearTo: null,
         details: [
@@ -766,7 +766,7 @@ export default {
     addNewProject() {
       var newProject = {
         projectTitle: "",
-        projectResidance: "",
+        projectResidence: "",
         projectDescription: "",
         details: [
           {
@@ -784,7 +784,7 @@ export default {
       var newSchool = {
         schoolName: "",
         schoolTitle: "",
-        schoolResidance: "",
+        schoolResidence: "",
         yearFrom: null,
         yearTo: null,
       };

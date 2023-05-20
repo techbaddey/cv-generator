@@ -107,8 +107,8 @@
                   >
                     {{ item.companyName }}
                   </h3>
-                  <p v-if="item.companyResidance">
-                    {{ item.companyResidance }}
+                  <p v-if="item.companyResidence">
+                    {{ item.companyResidence }}
                   </p>
                 </div>
                 <div class="experiance-item-details" v-if="item.details.length">
@@ -140,8 +140,8 @@
                   </h3>
                 </div>
                 <div class="project-item-subheader">
-                  <h4 v-if="item.projectResidance">
-                    {{ item.projectResidance }}
+                  <h4 v-if="item.projectResidence">
+                    {{ item.projectResidence }}
                   </h4>
                 </div>
                 <div class="project-item-details">
@@ -187,7 +187,7 @@
                   >
                     {{ item.schoolName }}
                   </h3>
-                  <p v-if="item.schoolResidance">{{ item.schoolResidance }}</p>
+                  <p v-if="item.schoolResidence">{{ item.schoolResidence }}</p>
                 </div>
               </div>
             </div>
@@ -199,15 +199,15 @@
         :style="`background-color: ${cvInfo.theme.primaryColor}`"
       >
         <div
-          class="cv-avatar"
-          v-if="cvInfo && cvInfo.userInfo && cvInfo.userInfo.avatar"
+          class="cv-picture"
+          v-if="cvInfo && cvInfo.userInfo && cvInfo.userInfo.picture"
         >
           <img
             :style="
-              cvInfo.theme.avatar ? 'border-radius: 50%' : 'border-radius: 8px'
+              cvInfo.theme.picture ? 'border-radius: 50%' : 'border-radius: 8px'
             "
-            :src="cvInfo.userInfo.avatar"
-            alt="avatar"
+            :src="cvInfo.userInfo.picture"
+            alt="picture"
           />
         </div>
         <div class="cv-body">

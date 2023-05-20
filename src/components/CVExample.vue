@@ -185,11 +185,11 @@
         </div>
       </div>
       <div class="cv-right" style="background-color: #fffasfsafas">
-        <div class="cv-avatar">
+        <div class="cv-picture">
           <img
             style="border-radius: 50%"
-            :src="require('@/assets/avatar.jpeg')"
-            alt="avatar"
+            :src="require('@/assets/picture.jpeg')"
+            alt="picture"
           />
         </div>
         <div class="cv-body">

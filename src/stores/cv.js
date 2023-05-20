@@ -13,12 +13,12 @@ export const useCvStore = defineStore('cvStore', {
                     language: "en",
                     primaryColor: "#006666",
                     secondaryColor: "#1ab3b8",
-                    avatar: false,
+                    picture: false,
                     position: false,
                 },
                 userInfo: {
                     name: "",
-                    avatar: "",
+                    picture: "",
                     jobTitle: "",
                     phone: "",
                     email: "",
@@ -31,7 +31,7 @@ export const useCvStore = defineStore('cvStore', {
                 proffesionalExperiance: [{
                     jobTitle: "",
                     companyName: "",
-                    companyResidance: "",
+                    companyResidence: "",
                     yearFrom: null,
                     yearTo: null,
                     details: [{
@@ -40,7 +40,7 @@ export const useCvStore = defineStore('cvStore', {
                 }, ],
                 projects: [{
                     projectTitle: "",
-                    projectResidance: "",
+                    projectResidence: "",
                     projectDescription: "",
                     details: [{
                         detail: "",
@@ -49,7 +49,7 @@ export const useCvStore = defineStore('cvStore', {
                 education: [{
                     schoolName: "",
                     schoolTitle: "",
-                    schoolResidance: "",
+                    schoolResidence: "",
                     yearFrom: null,
                     yearTo: null,
                 }, ],
@@ -102,11 +102,11 @@ export const useCvStore = defineStore('cvStore', {
                             fontPreview: 'Pregled Font-a',
                             primaryColor: 'Primarna Boja Teme',
                             secondaryColor: 'Sekundarna Boja Teme',
-                            avatar: 'Okrugao Avatar',
+                            picture: 'Okrugao Picture',
                             mainSection: 'Pozicija Glavne Sekcije'
                         },
                         yourInfo: {
-                            avatar: 'Avatar',
+                            picture: 'Picture',
                             upload: 'Upload',
                             change: 'Izmijeni',
                             name: 'Ime',
@@ -120,7 +120,7 @@ export const useCvStore = defineStore('cvStore', {
                             job: 'Posao',
                             jobTitle: 'Radna Pozicija',
                             companyName: 'Ime Kompanije',
-                            companyResidance: 'Rezidencija Kompanije',
+                            companyResidence: 'Rezidencija Kompanije',
                             yearFrom: 'Godina (od)',
                             yearTo: 'Godina (do)',
                             jobDetail: 'Poslovni detalj'
@@ -128,7 +128,7 @@ export const useCvStore = defineStore('cvStore', {
                         projects: {
                             project: 'Projekat',
                             projectName: 'Ime Projekta',
-                            projectResidance: 'Rezidencija Projekta',
+                            projectResidence: 'Rezidencija Projekta',
                             projectDescription: 'Opis Posla',
                             projectDetail: 'Projektni Detalj'
                         },
@@ -136,7 +136,7 @@ export const useCvStore = defineStore('cvStore', {
                             school: 'Škola',
                             schoolName: 'Ime Škole',
                             schoolTitle: 'Titula',
-                            schoolResidance: 'Rezidencija Škole',
+                            schoolResidence: 'Rezidencija Škole',
                             yearFrom: 'Godina (od)',
                             yearTo: 'Godina (do)',
                         },
@@ -195,11 +195,11 @@ export const useCvStore = defineStore('cvStore', {
                             fontPreview: 'Font Preview',
                             primaryColor: 'Theme Primary Color',
                             secondaryColor: 'Theme Secondary Color',
-                            avatar: 'Rounded Avatar',
+                            picture: 'Rounded Picture',
                             mainSection: 'Main Section Position'
                         },
                         yourInfo: {
-                            avatar: 'Avatar',
+                            picture: 'Picture',
                             upload: 'Upload',
                             change: 'Change',
                             name: 'Name',
@@ -213,7 +213,7 @@ export const useCvStore = defineStore('cvStore', {
                             job: 'Job',
                             jobTitle: 'Job Title',
                             companyName: 'Company Name',
-                            companyResidance: 'Company Residance',
+                            companyResidence: 'Company Residence',
                             yearFrom: 'Year (from)',
                             yearTo: 'Year (to)',
                             jobDetail: 'Job Detail'
@@ -221,7 +221,7 @@ export const useCvStore = defineStore('cvStore', {
                         projects: {
                             project: 'Project',
                             projectName: 'Project Name',
-                            projectResidance: 'Project Residance',
+                            projectResidence: 'Project Residence',
                             projectDescription: 'Project Description',
                             projectDetail: 'Project Detail'
                         },
@@ -229,7 +229,7 @@ export const useCvStore = defineStore('cvStore', {
                             school: 'School',
                             schoolName: 'School Name',
                             schoolTitle: 'School Title',
-                            schoolResidance: 'School Residance',
+                            schoolResidence: 'School Residence',
                             yearFrom: 'Year (from)',
                             yearTo: 'Year (to)',
                         },
