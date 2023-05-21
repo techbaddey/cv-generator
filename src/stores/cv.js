@@ -221,7 +221,7 @@ export const useCvStore = defineStore('cvStore', {
                         projects: {
                             project: 'Project',
                             projectName: 'Project Name',
-                            projectResidence: 'Project Residence',
+                            projectResidence: 'Project Type',
                             projectDescription: 'Project Description',
                             projectDetail: 'Project Detail'
                         },

@@ -116,11 +116,11 @@
                   <h3>MyDomot</h3>
                 </div>
                 <div class="project-item-subheader">
-                  <h4>Lagos, Nigeria</h4>
+                  <h4>Agritech Solution</h4>
                 </div>
                 <div class="project-item-details">
                   <p class="project-item-details-title">
-                    Website development - Agritech Solution 
+                    Website application development 
                   </p>
 
                   <p>Languages: HTML, CSS, JavaScript</p>
@@ -134,11 +134,11 @@
                   <h3>Admin Dashboard</h3>
                 </div>
                 <div class="project-item-subheader">
-                  <h4>Lagos, Nigeria</h4>
+                  <h4>custom e-commerce</h4>
                 </div>
                 <div class="project-item-details">
                   <p class="project-item-details-title">
-                    Web Development - Custom e-Commerce 
+                    Web application development 
                   </p>
 
                   <p>Language: HTML, CSS, JavaScript</p>
@@ -152,11 +152,11 @@
                   <h3>CV Generator</h3>
                 </div>
                 <div class="project-item-subheader">
-                  <h4>Lagos, Nigeria </h4>
+                  <h4>Service as a Solution </h4>
                 </div>
                 <div class="project-item-details">
                   <p class="project-item-details-title">
-                    Web application development - service as a solution
+                    Web application development 
                   </p>
 
                   <p>Language: HTML, CSS, JavaScript</p>
