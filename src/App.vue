@@ -26,7 +26,7 @@
     <div class="tag">
       <p>
         built with ❤️ by
-        <a href="https://github.com/teqbaddie/" target="_blank">@teqbaddie</a>
+        <a href="https://github.com/techbaddey/" target="_blank">@techbaddey</a>
       </p>
     </div>
   </div>
