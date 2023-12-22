@@ -285,8 +285,8 @@
                 </div>
                 <div class="social-item-right">
                   <p>Github</p>
-                  <a href="https://github.com/teqbaddie" target="_blank">
-                    @teqbaddie
+                  <a href="https://github.com/techbaddey" target="_blank">
+                    @techbaddey
                   </a>
                 </div>
               </div>
