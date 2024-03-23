@@ -4,7 +4,7 @@
       <div class="cv-left">
         <div class="cv-header">
           <h1>Oyinkansola Shoroye</h1>
-          <p class="job-title">Frontend Developer</p>
+          <p class="job-title">Frontend Engineer</p>
           <div class="cv-header-contact">
             <div class="cv-header-contact__item">
               <PhoneIcon fillColor="#999999" :size="16" />
